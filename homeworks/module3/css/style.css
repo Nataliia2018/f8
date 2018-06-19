@@ -1,0 +1,57 @@
+
+h1, h2 {
+    color: orangered
+}
+.box{
+    width: 420px;
+    display: inline-block;
+    vertical-align: top;
+}
+.inline-el {
+    display: inline-block;
+    
+}
+.wrapper {
+    width: 900px;
+    margin: auto;
+}
+header {
+    padding-left: 178px;
+    margin-bottom: 20px;
+}
+.mr120 {
+    margin-right: 120px;
+}
+.mr95 {
+    margin-right: 95px;
+}
+.inline-el>a{
+    text-decoration: none;
+    color: rgb(98,98,98);
+}
+.inline-el>a:hover {
+    color: #03a9f3;
+}
+.box:nth-of-type(odd) {
+    margin-right: 54px;
+}
+img {
+    width: 420px;
+    height: 280px;
+}
+h2 {
+    font-size: 30px;
+    color: rgb(98,98,98);
+}
+h4 {
+    font-size: 14px;
+    color: rgb(180,173,158);
+    text-transform: uppercase;
+}
+footer {
+    text-align: center;
+}
+button {
+    padding: 20px 33px;
+    background: #fff;
+}
